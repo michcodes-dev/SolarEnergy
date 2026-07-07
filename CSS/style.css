@@ -16,7 +16,7 @@ body{
             rgba(0,0,0,.55),
             rgba(0,0,0,.55)
         ),
-        url(images/solarimage.jpg);
+        url(solarimage.jpg);
 
     background-size: cover;
     background-position: center;
