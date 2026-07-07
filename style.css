@@ -49,6 +49,11 @@ header{
     cursor: pointer;
 }
 
+nav a.active{
+    color:#ff6600;
+    font-weight:600;
+}
+
 .hero{
     padding: 40px 20px;
 }
@@ -781,3 +786,4 @@ hr{
     margin-top:30px;
     color:#cfcfcf;
 }
+
