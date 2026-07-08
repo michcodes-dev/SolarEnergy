@@ -16,10 +16,10 @@ body{
             rgba(0,0,0,.55),
             rgba(0,0,0,.55)
         ),
-        url(solarimage.jpg);
+        url(aboutpage.jpg);
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 40vh;
 }
