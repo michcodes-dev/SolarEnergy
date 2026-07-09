@@ -1,13 +1,11 @@
-console.log("Script loaded!");
 const menuIcon = document.getElementById("menu-icon");
+const closeMenu = document.getElementById("close-menu");
 const mobileMenu = document.getElementById("mobile-menu");
 
 menuIcon.addEventListener("click", () => {
-    mobileMenu.classList.toggle("active");
+    mobileMenu.classList.add("active");
+});
 
-    if (mobileMenu.classList.contains("active")) {
-    menuIcon.innerHTML = "&times;";
-} else {
-    menuIcon.innerHTML = "☰";
-}
+closeMenu.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
 });
